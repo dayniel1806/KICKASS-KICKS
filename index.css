@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+    /* color: white; */
+}
+
+#nav_bar ul li{
+    list-style: none;
+    color: black;
+    padding-left: 200px;
+    font-size: 16px;
+}
+
+#nav_bar ul a :hover{
+    color:orangered;
+}
+
+
+#nav_bar ul{
+    display: flex;
+    color: black;
+}
+
+#nav_bar ul a{
+    color: white;
+}
+
+
+
+#bodyHeader {
+    animation: drop 3000  1 y ;
+    font-size: 100px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-top: 130px;
+    color: black;
+    position: absolute;
+    padding-left: 30px;  font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#PartPic{
+    padding-left: 600px;
+    padding-top: 50px;
+    position: absolute;
+}
+
+#PartPic img{
+    /* width: 500px; */
+    border-radius: 40px;
+    border-style: groove;
+    width: 574.422px;
+    height: 700px;
+}
+#PartPic img:hover{
+    border-style: groove;
+    border-color: red;
+    border-width: 2px;
+}
+
+
+#logo{
+    width: 10%;
+}
+
+
+
+.mySlides{
+    position: absolute;
+}
+
+
+
+
+
+
